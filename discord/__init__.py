@@ -4,15 +4,15 @@ Discord API Wrapper
 
 A basic wrapper for the Discord API.
 
-:copyright: (c) 2015-present Rapptz
+:copyright: (c) 2015-2021 Rapptz / 2022- Mirinano
 :license: MIT, see LICENSE for more details.
 
 """
 
 __title__ = 'discord'
-__author__ = 'Rapptz'
+__author__ = 'Rapptz, Mirinano'
 __license__ = 'MIT'
-__copyright__ = 'Copyright 2015-present Rapptz'
+__copyright__ = 'Copyright 2015-2021 Rapptz / 2022- Mirinano'
 __version__ = '2.0.0a'
 
 __path__ = __import__('pkgutil').extend_path(__path__, __name__)
@@ -69,6 +69,6 @@ class VersionInfo(NamedTuple):
     serial: int
 
 
-version_info: VersionInfo = VersionInfo(major=2, minor=0, micro=0, releaselevel='alpha', serial=0)
+version_info: VersionInfo = VersionInfo(major=3, minor=0, micro=0, releaselevel='alpha', serial=0)
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
